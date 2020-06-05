@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movie Filter?</title>
+  </head>
+  <body>
+
+      <h1>Filter movies:</h1>
+
+      <select id="filters">
+        <optgroup label="Genre:">
+          <option value="Musical">Musical</option>
+          <option value="Adventure">Aventure</option>
+          <option value="Drama">Drama</option>
+          <option value="Comedy">Comedy</option>
+        </optgroup>
+        <optgroup label="Rating:">
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </optgroup>
+      </select>
+
+      <button id="filter">Filter</button>
+      <button id="remove-filter">Remove filters</button>
+
+      <div id="list"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
