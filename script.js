@@ -137,7 +137,7 @@ const showList = () => {
   moviesList.innerHTML = ''
   movies.forEach((movie) => {
     moviesList.innerHTML += `
-    <div class="movie-card"> <h3>${movie.title} </h3> ${movie.year} | ${movie.genre} | ${movie.rating}</div>
+    <div class="movie-card"> <h2>${movie.title} </h2> ${movie.year} | ${movie.genre} | ${movie.rating}</div>
     `
   })
 }
@@ -155,7 +155,7 @@ const filterMovies = () => {
     moviesList.innerHTML = ''
     filtered.forEach((movie) => {
       moviesList.innerHTML += `
-      <div class="movie-card"> <h3>${movie.title} </h3> ${movie.year} | ${movie.genre} | ${movie.rating}</div>
+      <div class="movie-card"> <h2>${movie.title} </h2> ${movie.year} | ${movie.genre} | ${movie.rating}</div>
       `
   })
 
@@ -166,7 +166,7 @@ const filterMovies = () => {
     moviesList.innerHTML = ''
     filtered.forEach((movie) => {
     moviesList.innerHTML += `
-    <div class="movie-card"> <h3>${movie.title} </h3> ${movie.year} | ${movie.genre} | ${movie.rating}</div>
+    <div class="movie-card"> <h2>${movie.title} </h2> ${movie.year} | ${movie.genre} | ${movie.rating}</div>
     `
   })
   } else {
