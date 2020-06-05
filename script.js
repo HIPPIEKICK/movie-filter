@@ -170,11 +170,7 @@ const filterMovies = () => {
     `
   })
   } else {
-    currentQuestion = {
-      attribute: value,
-      value: true,
-      category: category,
-    }
+    return
   }
 }
 
